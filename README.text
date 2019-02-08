@@ -1,0 +1,26 @@
+보기 전에 알아야할 지식
+
+패스워드 저장법(일단 여기선 key만드는용으로 사용함)
+https://d2.naver.com/helloworld/318732
+> rainbow attack
+> salting
+> PBKDF2
+
+블록 암호 운용 방식
+https://ko.wikipedia.org/wiki/%EB%B8%94%EB%A1%9D_%EC%95%94%ED%98%B8_%EC%9A%B4%EC%9A%A9_%EB%B0%A9%EC%8B%9D
+>ECB(여기서 사용 안함)
+>CBC
+>CFB
+>CTR
+
+openssl로 인증서 만들기 ( 그냥 인증서 만들려면 유료!)
+https://cinema4dr12.tistory.com/984
+http://blog.saltfactory.net/implements-nodejs-based-https-server/  <= http_test코드는 여기 참조해서 작성
+>http / https
+>ssl
+>openssl
+
+SSL통신 과정
+https://wayhome25.github.io/cs/2018/03/11/ssl-https/ <= 간단한 통신과정
+https://jybaek.tistory.com/548 <= client,server hello로 전달 내용
+https://rsec.kr/?p=455 <= 위 hello에 cipher suite에 들어있는 내용 해독
