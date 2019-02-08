@@ -22,10 +22,14 @@
 
 //이후 통신 종료되면 세션키 폐기
 
+
+////////////////의문/////////////////////////
 //의문 pre master secret와 master secret의 차이
 //세션키는 master secret의 무엇으로 만드는가
 
 //이후 통신이 종료되면 master secret는 유지 되는가?
+////////////////의문/////////////////////////
+
 
 var http=require('http'),
     https = require('https'),
@@ -39,7 +43,7 @@ var options = {
 
 
 var port1 = 80; //http => wireshark로 보임
-var port2 = 443; //http => wireshark로 안보임
+var port2 = 443; //https => wireshark로 안보임
 
 var app = express();
 app.use(express.urlencoded());
